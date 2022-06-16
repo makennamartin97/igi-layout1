@@ -20,8 +20,8 @@ function App(props) {
     <LoginContext.Provider value={{loginpage, setloginpage}}>
     <div className="App">
        <Myparticle/>
-      {isLoading===true?
-        <Loading/>:
+      {/* {isLoading===true?
+        <Loading/>: */}
         <div>
          <Navbar/>
         <Main/>
@@ -30,7 +30,7 @@ function App(props) {
         </div>
         
         
-}
+{/* } */}
       
     </div>
     </LoginContext.Provider>
