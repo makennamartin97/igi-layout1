@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/igi-layout1/static/css/main.e898b3af.css",
+    "main.css": "/igi-layout1/static/css/main.c99fd301.css",
     "main.js": "/igi-layout1/static/js/main.ba323982.js",
     "static/js/937.7b89079d.chunk.js": "/igi-layout1/static/js/937.7b89079d.chunk.js",
     "static/js/787.74cd0e01.chunk.js": "/igi-layout1/static/js/787.74cd0e01.chunk.js",
@@ -10,13 +10,13 @@
     "static/media/Robodron Bold.otf": "/igi-layout1/static/media/Robodron Bold.d0294044ba20df1b74e7.otf",
     "static/media/Robodron.otf": "/igi-layout1/static/media/Robodron.2f445dd0dccfb699ebfb.otf",
     "index.html": "/igi-layout1/index.html",
-    "main.e898b3af.css.map": "/igi-layout1/static/css/main.e898b3af.css.map",
+    "main.c99fd301.css.map": "/igi-layout1/static/css/main.c99fd301.css.map",
     "main.ba323982.js.map": "/igi-layout1/static/js/main.ba323982.js.map",
     "937.7b89079d.chunk.js.map": "/igi-layout1/static/js/937.7b89079d.chunk.js.map",
     "787.74cd0e01.chunk.js.map": "/igi-layout1/static/js/787.74cd0e01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e898b3af.css",
+    "static/css/main.c99fd301.css",
     "static/js/main.ba323982.js"
   ]
 }
