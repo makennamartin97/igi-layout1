@@ -5,9 +5,11 @@ import Loading from './components/Loading.js';
 import Footer from './components/Footer.js';
 import Navbar from './components/Navbar.js';
 import Myparticle from './components/Particless.js';
+import LoginContext from './contexts/LoginContext';
 
 
-function App() {
+function App(props) {
+  const [loginpage, setloginpage] = useState(false)
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -15,6 +17,7 @@ function App() {
     }, 2150);
   })
   return (
+    <LoginContext.Provider value={{loginpage, setloginpage}}>
     <div className="App">
        <Myparticle/>
       {isLoading===true?
@@ -26,11 +29,11 @@ function App() {
        
         </div>
         
-      }
-      
-      
+        
+}
       
     </div>
+    </LoginContext.Provider>
   );
 }
 

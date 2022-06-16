@@ -13,11 +13,11 @@ function Particless() {
   interactivity: {
     detect_on: "canvas",
     events: {
-      onclick: { enable: false, mode: "push" },
+      onclick: { enable: true, mode: "push" },
       onhover: {
         enable: true,
         mode: "attract",
-        parallax: { enable: false, force: 10, smooth: 10 }
+        parallax: { enable: false, force: 80, smooth: 10 }
       },
       resize: true
     },
@@ -36,7 +36,7 @@ function Particless() {
       width: 1.7
     },
     move: {
-      attract: { enable: false, rotateX: 600, rotateY: 1200 },
+      attract: { enable: true, rotateX: 600, rotateY: 1200 },
       bounce: false,
       direction: "none",
       enable: true,

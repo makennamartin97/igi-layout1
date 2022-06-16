@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/igi-layout1/static/css/main.e5dd6f7c.css",
-    "main.js": "/igi-layout1/static/js/main.03f6eceb.js",
+    "main.css": "/igi-layout1/static/css/main.b568ffc0.css",
+    "main.js": "/igi-layout1/static/js/main.4d3379f7.js",
     "static/js/937.7b89079d.chunk.js": "/igi-layout1/static/js/937.7b89079d.chunk.js",
     "static/js/787.74cd0e01.chunk.js": "/igi-layout1/static/js/787.74cd0e01.chunk.js",
     "static/media/ano2light.otf": "/igi-layout1/static/media/ano2light.ca831a3a03a1c294b38c.otf",
+    "static/media/Quantum.otf": "/igi-layout1/static/media/Quantum.2cf9e1c7fad59d223171.otf",
     "static/media/logo.png": "/igi-layout1/static/media/logo.1bfb46f41107edb5841f.png",
+    "static/media/Robodron Bold.otf": "/igi-layout1/static/media/Robodron Bold.d0294044ba20df1b74e7.otf",
+    "static/media/Robodron.otf": "/igi-layout1/static/media/Robodron.2f445dd0dccfb699ebfb.otf",
     "index.html": "/igi-layout1/index.html",
-    "main.e5dd6f7c.css.map": "/igi-layout1/static/css/main.e5dd6f7c.css.map",
-    "main.03f6eceb.js.map": "/igi-layout1/static/js/main.03f6eceb.js.map",
+    "main.b568ffc0.css.map": "/igi-layout1/static/css/main.b568ffc0.css.map",
+    "main.4d3379f7.js.map": "/igi-layout1/static/js/main.4d3379f7.js.map",
     "937.7b89079d.chunk.js.map": "/igi-layout1/static/js/937.7b89079d.chunk.js.map",
     "787.74cd0e01.chunk.js.map": "/igi-layout1/static/js/787.74cd0e01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5dd6f7c.css",
-    "static/js/main.03f6eceb.js"
+    "static/css/main.b568ffc0.css",
+    "static/js/main.4d3379f7.js"
   ]
 }
