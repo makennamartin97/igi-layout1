@@ -1,0 +1,17 @@
+.btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: black;
+    /* background-color: #d3a13b; */
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+  }
+  .btn a{
+    color:white;
+    text-decoration: none;
+  }

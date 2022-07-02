@@ -17,13 +17,13 @@ function Particless() {
       onhover: {
         enable: true,
         mode: "attract",
-        parallax: { enable: false, force: 80, smooth: 10 }
+        parallax: { enable: false, force: 290, smooth: 30 }
       },
       resize: true
     },
     modes: {
-      push: { quantity: 4 },
-      attract: { distance: 100, duration: .5, factor: 3}
+      push: { quantity: 1 },
+      attract: { distance: 60, duration: .5, factor: 3}
     }
   },
   particles: {

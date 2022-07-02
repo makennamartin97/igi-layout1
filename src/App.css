@@ -2,9 +2,23 @@
   text-align: center;
   background-color: black;
   width: 100vw;
+  height: 100vh
 }
 html,body{
   overflow-x: hidden;
+  margin: 0px!important;
+  padding: 0px!important;
+}
+.dashpage{
+  /* background-color: white; */
+  height:100vh;
+  width: 100vw;
+}
+.cont{
+
+ display: flex;
+ justify-content: center;
+ position: relative;
 }
 
 
@@ -31,7 +45,7 @@ html,body{
   animation-iteration-count: 2;
 } */
 .s1 h2{
-  font-size: 25px;
+  font-size: 20px;
   /* position: relative;
   top:20%; */
   color:  #1DB954
@@ -233,7 +247,8 @@ html,body{
   display: flex;
   flex-direction: row;
   width: 100vw;
-  height:100vh
+  height:100vh;
+  padding-bottom: 120px;
 
 }
 .row1{
@@ -310,20 +325,17 @@ html,body{
   position:relative;
 
 }
-#tsparticles{
-  /* height: 100vh!important;
-  width: 100vw; */
-  position: absolute;
-}
+
 canvas {
   display: block;
   /* s */
   /* vertical-align: bottom; */
 }
 .login{
-  height: 90vh;
-  width:100vw;
-  position: relative;
+  /* height: 90vh;
+  width:100vw; */
+
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,7 +396,9 @@ canvas {
 }
 #tsparticles{
   width: 100vw!important;
-  height: 100vh
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
 }
 
 /* 
@@ -455,18 +469,31 @@ input {
     color: #e5e5e5;
   }
 }
+form #connections{
+  display: flex;
+  align-items: center;
+}
+#connections input{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
-.login button {
-  margin-top: 50px;
+.btn{
+  margin-top: 30px;
+  margin-bottom: 20px;
   width: 100%;
   background-color: black;
-  color:white;
   /* background-color: #d3a13b; */
   padding: 15px 0;
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
+  color:white;
+}
+.btn a{
+  color:white;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -540,7 +567,7 @@ input {
   }
   .main h2{
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
 
   }
   #help canvas{
@@ -553,14 +580,15 @@ input {
   }
 /* 
   login */
-  .login form{
+  /* .login form{
     height: 60vh;
     width: 50vw;
-  }
+  } */
   .row{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
   }
   .s1{
     height: 100px;
@@ -573,8 +601,10 @@ input {
 }
 @media (max-width: 540px){
   .login form{
-    height: 60vh;
-    width: 70vw;
+    /* height: 60vh;
+    width: 70vw; */
+    padding: 30px 15px;
+    width: 70vw
   }
   .login button {
     margin-top: 25px;
@@ -586,12 +616,23 @@ input {
     border-radius: 5px;
     cursor: pointer;
   }
-  form{
-    padding: 2px 35px;
-  }
+
   input{
     height:40px
   }
+}
+@media (max-width: 350px){
+  .login form{
+    width: 100vw;
+  }
+  .n1, .n2{
+    margin:0px;
+    font-size: 12px;
+  }
+  .navbar{
+    justify-content: space-evenly;
+  }
+
 }
 
 

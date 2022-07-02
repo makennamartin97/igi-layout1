@@ -6,28 +6,27 @@ import Footer from './components/Footer.js';
 import Navbar from './components/Navbar.js';
 import Myparticle from './components/Particless.js';
 import LoginContext from './contexts/LoginContext';
+import Dash from './components/Dash.js';
+import { ethers } from "ethers";
+import {Router} from '@reach/router';
 
 
-function App(props) {
+
+function App() {
   const [loginpage, setloginpage] = useState(false)
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2150);
-  })
+  const [dashpage, setdashpage] = useState(false)
+  
+
   return (
-    <LoginContext.Provider value={{loginpage, setloginpage}}>
+    <LoginContext.Provider value={{loginpage, setloginpage, dashpage, setdashpage}}>
     <div className="App">
-       <Myparticle/>
-      {/* {isLoading===true?
-        <Loading/>: */}
-        <div>
-         <Navbar/>
-        <Main/>
-        <Footer/>
+
+        <Router>
+          <Main path="/" />
+          <Dash path="/dash" />
+        </Router>
        
-        </div>
+        
         
         
 {/* } */}

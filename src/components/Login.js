@@ -1,11 +1,18 @@
-import React,{useContext,useState, useEffect} from 'react';
-import LoginContext from '../contexts/LoginContext';
+import React,{useContext,useEffect} from 'react';
+import Navbar from './Navbar.js';
+import Button from './Button';
 
 
 
 function Login() {
 
+
+ 
+
     return (
+      <>
+      <Navbar/>
+      
       <div className="login">
 
             <form>
@@ -17,11 +24,15 @@ function Login() {
                 <label for="password">Password</label>
                 <input type="password" placeholder="Password" id="password"/>
 
-                <button>SIGN IN</button>
+                <Button><a href="/dash">SIGN IN</a></Button>
+ 
+    
             </form>
+            
        
           
       </div>
+      </>
     );
   }
   
